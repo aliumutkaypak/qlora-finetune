@@ -123,8 +123,8 @@ def generate_and_tokenize_prompt(data_point):
 def get_args():
     # Gets the training arguments from the user.
     parser = argparse.ArgumentParser(description="Process some integers.")
-    parser.add_argument('--model-id', type=str, default='EleutherAI/pythia-2.8b',
-                       choices=['EleutherAI/pythia-12b', 'EleutherAI/pythia-2.8b', 'EleutherAI/pythia-6.9b'])
+    parser.add_argument('--model-id', type=str, default='EleutherAI/pythia-12b',
+                       choices=['EleutherAI/pythia-12b', 'EleutherAI/pythia-6.9b'])
     parser.add_argument('--lora-rank', type=int, default=8)
     parser.add_argument('--number-train-epoch', type=int, default=1)
     parser.add_argument('--output-dir', default='./output', type=str)
