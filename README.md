@@ -1,7 +1,7 @@
 # qlora-finetune
 NYU Tandon Deep Learning Final Project Repository
 
-This repository contains the Qlora fine-tuning code for the Pythia models (2.8B, 6.9B, and 12B) using the Alpaca dataset.
+This repository contains the Qlora fine-tuning code for the Pythia models (6.9B, and 12B) using the Alpaca dataset.
 
 This repo adapts the qlora training code from [https://github.com/artidoro/qlora](https://github.com/artidoro/qlora) and [https://github.com/tloen/alpaca-lora](https://github.com/tloen/alpaca-lora). 
 
