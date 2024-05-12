@@ -23,7 +23,8 @@ Qlora header files we trained are in /models and stored by following the convent
 We store alpaca input structure in /templates/alpaca.json.
 
 ### Installation
-We tested our code with Python 3.11 \ 
+We tested our code with Python 3.11 
+
 After installing the Pytorch by following the steps in [link](https://pytorch.org/get-started/locally/), install the requirements as follows.
 ```bash
 pip install -U -r requirements.txt
